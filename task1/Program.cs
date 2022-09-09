@@ -4,7 +4,7 @@
 Console.WriteLine("Введите номер четверти: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-string GetQuarter(int number)
+string Coordinat(int number)
 {
     if (number == 1) return "Диапазон возможных координат: x > и y > 0 ";
     if (number == 2) return "Диапазон возможных координат: x < и y > 0 ";
