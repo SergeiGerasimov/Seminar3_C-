@@ -15,6 +15,7 @@ int x2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Y - ");
 int y2 = Convert.ToInt32(Console.ReadLine());
 
+
 double cord = Math.Sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
 
-Console.WriteLine(Math.Round(cord,2));//round - округление
+Console.WriteLine(Math.Round(cord,2, MidpointRounding.ToZero));//round - округление
